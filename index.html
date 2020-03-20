@@ -2,15 +2,16 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
-		<title>My page</title>
+		<title>Minha página</title>
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Usado para linkar comandos  -->
 	</head>
 
 	<body>
+	<!-- Comando nav apenas para cabeçalho -->
 		<nav class="navbar navbar-expand-lg navbar-light">
   			<a class="navbar-brand" href="#">
-  				<img src="_img/global.png" width="200px" height="70px">
+  				<img src="_img/global.png" class="img-main" width="200px" height="70px">
   			</a>
 
   			<div class="collapse navbar-collapse">
@@ -28,6 +29,7 @@
       		</div>
       	</nav>
 	
+		<!--container-fuid é para um pedaço de cor ser responsivo -->
     	<section id="quemsomos">
      		<div class="container-fuid quem-somos text-center margin">
       			<h3>Quem somos</h3>
@@ -39,7 +41,35 @@
       		</div>
     	</section>	
 
-	
+
+    	<section id="servicos">
+     		<div class="container-fuid text-center margin servicos">
+      			<h3 class="margin">Serviços</h3>
+
+      			<div class="container">
+      				<div class="row">
+      					<div class="col-lg-6">
+      						<p>
+								Suspensão da Internet, hackers e ameaças — a saúde da Internet está em risco. Inscreva-se e a Mozilla o manterá atualizado sobre como ajudar
+      						</p>
+      						<img src="_img/site1.jpeg" width="80%">
+      					</div>
+      					
+      					<div class="col-lg-6">
+      						<p>
+								Suspensão da Internet, hackers e ameaças — a saúde da Internet está em risco. Inscreva-se e a Mozilla o manterá atualizado sobre como ajudar
+      						</p>
+      						<img src="_img/site2.jpeg" width="80%">
+      					</div>
+
+      				</div>
+      				
+      			</div>
+      		</div>
+
+    	</section>	
+
+
     	<section id="parceiros">
      		<div class="container-fuid parceiros text-center margin">
       			<h3>Parceiros</h3>
@@ -47,15 +77,15 @@
       			<div class="container">
       				<div class="row">
       					<div class="col-lg-4">
-      						<img src="_img/parceria2.png" width="100%">
+      						<img src="_img/parceria2.png" width="80%">
       					</div>
 
       					<div class="col-lg-4">
-      						<img src="_img/parceria2.png" width="100%">
+      						<img src="_img/parceria2.png" width="80%">
       					</div>
 
       					<div class="col-lg-4">
-      						<img src="_img/parceria2.png" width="100%">
+      						<img src="_img/parceria2.png" width="80%">
       					</div>
       				</div>
       				
@@ -64,14 +94,12 @@
       		</div>
     	</section>	
 
+    	<footer class="container-fuid text-center bg-footer">
+    		<p>
+    			Desenvolvido por Thaís Félix
+    		</p>
+    	</footer>
 
-    	<section id="servicos">
-     		<div class="container-fuid quem-somos text-center margin">
-      			<h3>Serviços</h3>
-      			<img src="_img/site1.jpeg"  class="rounded-circle" width="300" height="300">
-      			<!-- rounded-circle: arredondar a imagem, usou 400 nas duas para o circulo ficar perfeito -->
-      		</div>
-    	</section>	
 
 	</body>
 

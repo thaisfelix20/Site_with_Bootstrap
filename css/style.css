@@ -2,6 +2,14 @@ body{
 	font: 20px Arial, sans-serif;
 }
 
+.img-main{
+	margin: 3px;
+}
+
+img{
+	margin:20px; 
+}
+
 .navbar{
 	background-color: #04B431;
 }
@@ -12,14 +20,23 @@ body{
 }
 
 .margin{
-	padding-bottom: 50px;
-	padding-top: 50px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 .parceiros{
 	background-color: #DF3A01;
 
 }
+.bg-footer{
+	background-color: #2E2E2E;
+	color: white;
+	font-family: sans-serif; 
+	font-size: 12px;
+	padding-top: 10px; /* margin da uma margem branca paddinh pinta da mesma cor a margem*/
+	padding-bottom: 1px;
+	}
+
 
 
 
